@@ -1,0 +1,14 @@
+{
+  "name": "hexo-generator-wordcloud",
+  "version": "0.0.2",
+  "description": "generate wordcloud for content",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "m09ic",
+  "license": "MIT",
+  "dependencies": {
+    "segment": "^0.1.3"
+  }
+}
