@@ -1,7 +1,7 @@
 var Segment = require('segment');
 var fs = require("fs");
 // 创建实例
-var text = fs.readFileSync("D:\\Programing\\nodejs\\hexo-wordcloud\\1.md",{encoding:'utf-8'});
+var text = fs.readFileSync("1.md",{encoding:'utf-8'});
 const whitep = [0x00000008,0x40000000,0x00100000,0x20000000,16]
 
 function fenci(text) {
